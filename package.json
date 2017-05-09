@@ -1,0 +1,29 @@
+{
+  "name": "snapd-control",
+  "version": "0.0.1",
+  "description": "snapd is new management tool for Ubuntu Snappy Core, this package will let you control over that using node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test"
+  },
+  "keywords": [
+    "snapd-control",
+    "Snappy",
+    "Core",
+    "Ubuntu"
+  ],
+  "author": "Subhash Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "yamljs": "^0.2.9"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "snyk": "^1.29.0"
+  }
+}
